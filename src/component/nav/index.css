@@ -1,0 +1,103 @@
+.sale-banner {
+  height: 20px;
+  width: 100%;
+  background-color: #213538;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 8px;
+  color: white;
+  word-spacing: 1px;
+}
+
+.sale-banner img {
+  height: 13px;
+  margin-right: 5px;
+}
+
+.navbar {
+  padding: 0 200px;
+  height: 31px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.navbar p {
+  font-size: 14px;
+  font-weight: 700;
+  color: #213538;
+  cursor: pointer;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li {
+  font-size: 9px;
+  margin-right: 5px;
+  color: #213538;
+  font-weight: 600;
+  position: relative;
+  text-decoration: none;
+  margin: 0 12px;
+  cursor: pointer;
+}
+
+.navbar ul li:after {
+  content: "";
+  position: absolute;
+  background-color: #213538;
+  height: 2px;
+  width: 0;
+  left: 0;
+  bottom: -1px;
+  transition: 0.3s;
+}
+
+.navbar ul li:hover {
+  color: #213538;
+}
+
+.navbar ul li:hover:after {
+  width: 100%;
+}
+
+.navbar ol {
+  display: flex;
+  list-style: none;
+  font-size: 9px;
+}
+
+.navbar ol li {
+  font-size: 9px;
+  margin-right: 5px;
+  color: #213538;
+  font-weight: 600;
+  position: relative;
+  text-decoration: none;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.navbar ol li:after {
+  content: "";
+  position: absolute;
+  background-color: #213538;
+  height: 2px;
+  width: 0;
+  left: 0;
+  bottom: -1px;
+  transition: 0.3s;
+}
+
+.navbar ol li:hover {
+  color: #213538;
+}
+
+.navbar ol li:hover:after {
+  width: 100%;
+}
